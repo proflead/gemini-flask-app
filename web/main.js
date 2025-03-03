@@ -22,7 +22,7 @@ form.onsubmit = async (ev) => {
 
     // Call the gemini-pro-vision model, and get a stream of results
     let stream = streamGemini({
-      model: 'gemini-pro',
+      model: 'gemini-1.5-flash-002',
       contents,
     });
 
